@@ -1,41 +1,44 @@
 <html>
-    <head>
-        <link rel="stylesheet" href="index.css">
-    </head>
-    <body>
-        <div class="main">
+
+<head>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div class="main">
         <div class="container">
             <div>
                 <h3 class="home" id="home">HOME</h3>
             </div>
             <div>
-                <h3 class="guest">GUEST</h3>
+                <h3 class="guest">Away</h3>
             </div>
         </div>
         <div class="contaniner-score-box">
             <div class="scorebox" id="homescore">
                 0
             </div>
-          <div class="scorebox" id="guestscore">
-              0
-          </div>
+            <div class="scorebox" id="guestscore">
+                0
+            </div>
         </div>
         <div class="increments">
             <div class="btncontainer">
-        <button id="one" class="btn" onclick="onehome()">+1</button>
-        <button id="two" class ="btn" onclick="twohome()">+2</button>
-        <button id="three" class="btn" onclick="threehome()">+3</button>
+                <button id="one" class="btn" onclick="onehome()">+1</button>
+                <button id="two" class="btn" onclick="twohome()">+2</button>
+                <button id="three" class="btn" onclick="threehome()">+3</button>
             </div>
             <div class="btncontainer">
-        <button  class="btn " onclick="guestone()">+1</button>
-        <button  class="btn " onclick="guesttwo()">+2</button>
-        <button  class="btn " onclick="guestthree()">+3</button>
+                <button class="btn " onclick="guestone()">+1</button>
+                <button class="btn " onclick="guesttwo()">+2</button>
+                <button class="btn " onclick="guestthree()">+3</button>
             </div>
-            </div>
-            <div  class="newgameposition">
-        <button class="btn" onclick="reset()" >Reset</button>
         </div>
+        <div class="newgameposition">
+            <button class="btn" onclick="reset()">Reset</button>
         </div>
-        <script src="index.js"></script>
-    </body>
+    </div>
+    <script src="index.js"></script>
+</body>
+
 </html>
