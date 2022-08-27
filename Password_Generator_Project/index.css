@@ -91,14 +91,15 @@ hr {
 }
 .pwtextzone
 {
-position: relative;
-width: 211px;
-height: 39px;
-top: 396px;
-background: #273549;
-border-radius: 6px;
-color: white;
-font-size: 30px;
-text-align: center;
-font-family: "karla";
+    position: relative;
+    width: 211px;
+    height: 39px;
+    top: 396px;
+    background: #273549;
+    border-radius: 6px;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    font-family: "karla";
+    box-shadow: 0px 0px 5px 0px cyan;
 }
