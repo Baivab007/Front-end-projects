@@ -1,0 +1,113 @@
+body
+{
+    margin: 0 auto;
+    background-color: hsl(222, 26%, 31%);
+}
+.Bg
+{   
+    height: 595px;
+    width: 495px;
+    color: whitesmoke;
+    margin: 0 auto;
+    display: block;
+    margin-top: 50px;
+    font-size: 30px;
+    padding: 10px;
+    font-family: 'League Spartan', sans-serif;
+    font-weight: 700;
+
+}
+.Bg  input
+{   border: none;
+    height: 107px;
+    margin-top: 13px;
+    width: 485px;
+    border-radius: 5px;
+    background-color: hsl(224, 36%, 15%);
+    font-family: 'League Spartan', sans-serif;
+    color: white;
+    font-size: 45px;
+    padding: 10px;
+    caret-color: transparent;
+    
+}
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}   
+.Bg .contener 
+{
+    margin-top: 12px;
+    display: flex;
+    color: black;
+    border-radius: 10px;
+    width: 87%;
+    justify-content: space-between;
+    height: 385px;
+    flex-wrap: wrap;
+    background-color: hsl(223, 31%, 20%);
+    font-family: 'League Spartan', sans-serif;
+    padding: 27px;
+}
+button
+{
+    font-size: 20px;
+    width: 95px;
+    height: 59px;
+    background-color: hsl(30, 25%, 89%);
+    box-shadow: 0px 5px 0px -2px hsl(28, 16%, 65%) ;
+    border-radius: 9px;
+    color:   hsl(221, 14%, 31%);
+    font-family: 'League Spartan', sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    padding-top:5px ;
+    border: none;
+}
+button:active{
+    background-color: hsl(30, 25%, 100%);
+}
+.del
+{
+    background-color: hsl(223, 56%, 55%);
+    box-shadow: 0px 5px 0px -2px hsl(224, 28%, 35%);
+    color: white;
+}
+.del:active
+{
+    background-color: hsl(223, 56%, 65%);
+}
+.Reset
+{
+    width: calc(50% - 10px);
+    height: 70px;
+    color: white;
+    background-color:  hsl(223, 56%, 55%);
+    box-shadow: 0px 5px 0px -2px hsl(224, 28%, 35%);
+
+}
+
+.Reset:active
+{
+    background-color: hsl(223, 56%, 65%);
+}
+.eq 
+{
+    width: calc(50% - 10px);
+    height: 70px;
+    background-color: hsl(6, 63%, 50%);
+    box-shadow: 0px 5px 0px -2px hsl(6deg 70% 34%);
+    color: white;
+}
+.eq:active {
+    background-color: rgb(241, 148, 138);
+}
+
+.attribution { 
+    
+font-size: 20px;
+text-align: center; 
+}
+.attribution a 
+{
+     color: hsl(228, 45%, 44%); 
+    }
